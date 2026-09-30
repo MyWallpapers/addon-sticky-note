@@ -1,0 +1,32 @@
+{
+  "runtime": "canvas-v1",
+  "name": "Note",
+  "description": "Une note simple, saisie dans les réglages. Texte brut, sans éditeur complexe ni synchronisation supplémentaire.",
+  "version": "0.1.0",
+  "entry": "dist/assets/addon.js",
+  "thumbnail": "assets/thumbnail.png",
+  "deviceSettingsVersion": "1",
+  "ui": {
+    "pointerEvents": "none"
+  },
+  "settings": [
+    {
+      "id": "title",
+      "type": "string",
+      "label": "Titre",
+      "default": "À garder en tête"
+    },
+    {
+      "id": "text",
+      "type": "textarea",
+      "label": "Texte",
+      "default": "Créer de l’espace.\nFaire une chose, puis la suivante."
+    },
+    {
+      "id": "accent",
+      "type": "color",
+      "label": "Accent",
+      "default": "#b3c3a9"
+    }
+  ]
+}
